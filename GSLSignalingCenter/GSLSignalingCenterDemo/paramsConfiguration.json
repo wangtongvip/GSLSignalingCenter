@@ -1,0 +1,20 @@
+{
+    "sdkappid": 1400190541,
+    "users": [
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"lianteacher",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6ImxpYW50ZWFjaGVyIiwicm9sZSI6InRlYWNoZXIiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI5MDU2NDMsInJvb21JZCI6MTAxODl9.PQ7v2uE-e_Qs82OpNuPpSyYlSSt5hStS8DMrqs3_y8w"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10209",
+            "roomId":"10224",
+            "userId":"WT_T_10209",
+            "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6MTAwMDAwMiwicm9vbUlkIjoxMDIyNCwibGl2ZUlkIjoxMDIwOSwicGxheWJhY2tJZCI6bnVsbCwicm9sZSI6InRlYWNoZXIiLCJ1c2VyR3JvdXAiOiJhbGwiLCJ1c2VyRmxhZyI6IldUX1RfMTAyMDkiLCJ0b2tlbkV4cGlyZSI6MTU5Njc2NzUwNTEwNCwiaWF0IjoxNTY1MjU3NzAzfQ.RI622kPNlwamV4f3VWS5AP0eaBM_uSkag52QrD_IYlU"
+        }
+    ]
+}
+
