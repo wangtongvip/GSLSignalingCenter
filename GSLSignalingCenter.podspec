@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.vendored_libraries  = "GSLSignalingCenter/GSLSignalingCenterDemo/GSLSignalingCenterFramework"
+  spec.vendored_libraries  = "GSLSignalingCenter/GSLSignalingCenterDemo/GSLSignalingCenterFramework.framework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
