@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65207E94230A751100CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E92230A71B400CFA39A /* GSLSignalingCenterFramework.framework */; };
-		65207E95230A751100CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E92230A71B400CFA39A /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65207E99230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */; };
+		65207E9A230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6539538D22FC22A20029FEAC /* paramsConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6539538C22FC22A20029FEAC /* paramsConfiguration.json */; };
 		657F0E2222E99D60002BAC65 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E0122E99D5F002BAC65 /* IQTextView.m */; };
 		657F0E2322E99D60002BAC65 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E0522E99D5F002BAC65 /* IQToolbar.m */; };
@@ -59,7 +59,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65207E95230A751100CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				65207E9A230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65207E92230A71B400CFA39A /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSLSignalingCenterFramework.framework; path = GSLSignalingCenter/GSLSignalingCenterDemo/GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
 		6539538C22FC22A20029FEAC /* paramsConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paramsConfiguration.json; sourceTree = "<group>"; };
 		657F0E0122E99D5F002BAC65 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		657F0E0222E99D5F002BAC65 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65207E94230A751100CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */,
+				65207E99230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		65207E91230A71B400CFA39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65207E92230A71B400CFA39A /* GSLSignalingCenterFramework.framework */,
+				65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -620,6 +620,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLSignalingCenter/GSLSignalingCenterDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GSLSignalingCenter/GSLSignalingCenterDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -643,6 +644,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLSignalingCenter/GSLSignalingCenterDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GSLSignalingCenter/GSLSignalingCenterDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
