@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.ios.vendored_libraries  = ""
-  spec.ios.vendored_library = 'GSLSignalingCenterFramework.framework’
+  # spec.ios.vendored_library = 'GSLSignalingCenterFramework.framework’
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
