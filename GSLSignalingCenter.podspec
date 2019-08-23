@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSLSignalingCenter"
-  spec.version      = "1.1.1"
+  spec.version      = "0.0.1"
   spec.summary      = "GSL signaling"
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,11 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			哥斯拉信令
+			        哥斯拉信令
+                    author: wangtong_vip@163.com
                    DESC
 
-  spec.homepage     = "https://github.com/wangtongvip/GSLSignalingCenter/blob/master/README.md"
+  spec.homepage     = "https://github.com/wangtongvip/GSLSignalingCenter"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -132,6 +133,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "GSLKit", "~> 0.0.1"
 
 end

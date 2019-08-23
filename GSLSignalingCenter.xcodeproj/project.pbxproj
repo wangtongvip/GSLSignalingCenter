@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65207E99230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */; };
-		65207E9A230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6511C0A6230FDE69005FE836 /* GSLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0A3230FDE44005FE836 /* GSLKit.framework */; };
+		6511C0A7230FDE69005FE836 /* GSLKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0A3230FDE44005FE836 /* GSLKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6511C0A8230FDE6B005FE836 /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0A2230FDE44005FE836 /* GSLSignalingCenterFramework.framework */; };
+		6511C0A9230FDE6B005FE836 /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0A2230FDE44005FE836 /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6539538D22FC22A20029FEAC /* paramsConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6539538C22FC22A20029FEAC /* paramsConfiguration.json */; };
 		657F0E2222E99D60002BAC65 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E0122E99D5F002BAC65 /* IQTextView.m */; };
 		657F0E2322E99D60002BAC65 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E0522E99D5F002BAC65 /* IQToolbar.m */; };
@@ -59,7 +61,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65207E9A230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				6511C0A9230FDE6B005FE836 /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				6511C0A7230FDE69005FE836 /* GSLKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		6511C0A2230FDE44005FE836 /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		6511C0A3230FDE44005FE836 /* GSLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLKit.framework; sourceTree = "<group>"; };
 		6539538C22FC22A20029FEAC /* paramsConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paramsConfiguration.json; sourceTree = "<group>"; };
 		657F0E0122E99D5F002BAC65 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		657F0E0222E99D5F002BAC65 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
@@ -123,7 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65207E99230AB6AC00CFA39A /* GSLSignalingCenterFramework.framework in Frameworks */,
+				6511C0A8230FDE6B005FE836 /* GSLSignalingCenterFramework.framework in Frameworks */,
+				6511C0A6230FDE69005FE836 /* GSLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +152,8 @@
 		65207E91230A71B400CFA39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65207E97230AB69F00CFA39A /* GSLSignalingCenterFramework.framework */,
+				6511C0A3230FDE44005FE836 /* GSLKit.framework */,
+				6511C0A2230FDE44005FE836 /* GSLSignalingCenterFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
